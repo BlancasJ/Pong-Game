@@ -5,7 +5,7 @@ Pong game with two modes availables single player and multi player.
 ## Install dependencies
 
 ```
-npm run install
+npm install
 ```
 
 ## Start Project
