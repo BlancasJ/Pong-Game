@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#canvas {
+  margin-top: 25px;
+  z-index: 10;
+}
+
+/* Montior and Larger */
+@media screen and (min-width: 1800px) {
+  canvas {
+    margin-top: 100px;
+  }
+}
+
+/* Large Smartphone (Vertical) */
+@media screen and (max-width: 500px) {
+  canvas {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+  }
+}
+
+button {
+  height: 40px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(68, 60, 60);
+  border-radius: 3px;
+}
+button:hover, button:focus {
+  color: rgb(2, 2, 2);
+  background-color: rgb(151, 150, 150);
+}
+#root:first-child {
+  margin-top: 20px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
